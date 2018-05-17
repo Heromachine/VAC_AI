@@ -1,0 +1,32 @@
+For this project, you have to two options described below.
+ 
+Option 1: The program given in lecture about the n-Puzzle problem implements a solution using the uninformed depth-first search (DFS) approach. Expand the program to implement two additional solutions, one using another uninformed search, the breadth-first search (BFS) approach, and the other using an informed search, which could be greedy search, A* search or heuristic search. Your program should not only test the correctness of your solutions, but also benchmark the two solutions on a minimal of 5 representative input instances to compare their performance with respect to running time and memory usage (extra points). In addition to regularly required documents for project submission, your submission for project 2 need to include the following additional information:
+ 
+(1) Your source code should contain code that benchmarks the performance of the two solutions described above. 
+(2) A report that summarizes the results of the benchmarking performed along with some discussions of the results and your conclusions from the discussions. Your report should also describe clearly what evaluation function your program uses to implement the solution using the informed search.
+ 
+Grading Scheme:
+ 
+80 pts for correct implementations of the two solutions contain testing code.
+30 pts for items (1) and (2) described above.
+10 pts for readme file and screen shots
+10 pts for sufficient comments in your source code
+Up to extra 50 pts for: 
+benchmarking on memory usage, 
+non-recursive implementation of the Depth-first Search (DFS) approach for the n-Puzzle problem, and
+any significant error you may find in the given program n-Puzzle.h at the discretion of the instructor.
+ 
+Option 2: You may propose a different programming problem to solve to fulfill the requirements for this project. Your proposed project should be one that can be formulated as a search problem expanding and/or similar to those examples covered in Chapter 3 of the textbook, where most of the search approaches introduced in lecture or the textbook can be applied. Exercise problems at the end of Chapter 3 of the textbook should be one of the good sources for brainstorming possible self-proposed problems suitable for this project. Your submission should contain one solution using an uninformed search such as DFS and BFS, and another solution using an informed search such as greedy and A*. To take this option, you need to submit to the instructor a proposal describing your project no later than 1159pm on Wednesday, Feb 15. Your proposal should contain the following information:
+ 
+an (informal) narrative describing the problem and its relevance. 
+complete formulation of the problem as a search problem, i.e., (initial) state, goal test, successor function, etc.
+descriptions of major data structures to be used and how for your solution such as objects/structures, stacks, queues, etc.
+evaluation functions to be used.
+skeleton code illustrating the main structure of your solution and identifying key functions.
+ 
+Upon receiving your proposal, the instructor will make every effort to review and approve it promptly. Then you can proceed to implement the solutions to your proposed project. Your self-proposed project will not receive any grade without the instructor’s approval in advance.
+                                                                                                                                        
+Submission Requirements and Grading Scheme:
+ 
+same as option 1 except that the 50 extra points will be based on the originality, significance, and/or applicability of your proposal, at the instructor’s discretion.
+
